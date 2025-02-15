@@ -158,7 +158,7 @@ function RemoverProduto(id)
 
 function PagAddProd()
 {
-    window.location.href = "Index.html";
+    window.location.href = "index.html";
 }
 
 function PagEstoque()
