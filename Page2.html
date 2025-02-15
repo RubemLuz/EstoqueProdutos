@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Sistema de Estoque</h1>
+        <div>
+            <input id="addprod" type="button" onclick="PagAddProd()" value="Adicionar Produtos">
+            <input id="estoqueprod" type="button" onclick="PagEstoque()" value="Estoque de Produtos">
+            <input id="removeorid" type="button" onclick="PagRemoverProd()" value="Remover Produtos">
+        </div>
+    </header>
+
+    <section>
+
+
+        <center><h3>Estoque de Produtos</h3>
+        <input id="showestoque" type="button" onclick="ShowEstoque()" value="Mostrar Estoque">
+        <p></p>
+        <select id="listaestoque" size="25">
+
+        </select></center>
+        <h3 id="contagemprod">Total de Produtos: </h3>
+        <p id="log"></p>
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por: <a href="https://www.linkedin.com/in/rubem-santos-3a1a3815a/">Rubem Luz</a></p>
+        <p>Versão: 0.0.1</p>
+    </footer>
+
+    <script src="scriptContagem.js"></script>
+</body>
+</html>
