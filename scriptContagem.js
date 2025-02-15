@@ -126,7 +126,8 @@ function RemoverProduto(id)
                         estocagemId[i] = 0;
                         window.alert("Produto removido!");
                         ShowProdutos();
-
+                        SaveData();
+                        
                         return inputID.value = '';
                     }else if(estocagemId[i] == id && quantidadeproduto[i] > 0)
                     {
@@ -136,7 +137,9 @@ function RemoverProduto(id)
                             estocagemId[i] = 0;
                             window.alert("Produto removido!");
                             ShowProdutos();
+                            SaveData();
                         }
+                        
                         return inputID.value = '';
                     }
 
