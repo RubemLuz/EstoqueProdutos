@@ -1,0 +1,37 @@
+body
+{
+    background: gray;
+}
+
+header
+{
+    font: normal 22px Arial;
+    text-align: center;
+}
+
+select
+{
+    text-align: center;
+    font: normal 15px Arial;
+    width: 480px;
+}
+section
+{
+    margin: auto;
+    background: white;
+    width: 515px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.582);
+}
+
+#rmvprod
+{
+    margin:  0px 0px 0px 19px;
+}
+footer
+{
+    text-align: center;
+    font: normal 18px Arial;
+    color: red;
+}
